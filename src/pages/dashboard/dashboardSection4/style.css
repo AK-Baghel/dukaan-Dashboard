@@ -1,0 +1,46 @@
+.dashboardSection4Container {
+    display: flex;
+    width: 70.5rem;
+    height: 3rem;
+    padding: 0.875rem 0.75rem;
+    align-items: center;
+    gap: 2.5rem;
+    background: var(--Black-100, #FFF);
+}
+
+.dashboardSection3Box1TextBlue {
+    color: var(--Primary-Blue, #146EB4);
+
+    /* Body 2/Medium */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.dashboardSection3Box1Date {
+    color: var(--Black-12, #1A181E);
+
+    /* Body 2/Regular */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.dashboardSection3Box1Cost {
+    color: var(--Black-12, #1A181E);
+    text-align: right;
+
+    /* Body 2/Regular */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    /* 142.857% */
+}

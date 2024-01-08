@@ -1,0 +1,181 @@
+.verticalNavbarContainer {
+    display: inline-flex;
+    height: 92.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: #1E2640;
+}
+
+.verticalNavbarBox {
+    display: flex;
+    width: 14rem;
+    padding: 1rem 0.625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 0 0;
+    background: var(--Secondary-Navbar, #1E2640);
+    color: #FFFFFF;
+}
+
+.verticalNavbarBoxParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 0 0;
+}
+
+.verticalNavbarBox1 {
+    display: flex;
+    width: 12rem;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.verticalNavbarBox1Image {
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border-radius: 0.25rem;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+
+.verticalNavbarBox1Texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+    flex: 1 0 0;
+}
+
+.verticalNavbarBox1Text1 {
+    align-self: stretch;
+    color: var(--Black-100, #FFF);
+
+    /* Body 1/Medium */
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 146.667% */
+}
+
+.verticalNavbarBox1Text2 {
+    align-self: stretch;
+    color: var(--Black-100, #FFF);
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    /* 123.077% */
+    text-decoration-line: underline;
+    opacity: 0.8;
+}
+
+
+.verticalNavbarBox1Icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+
+}
+
+.verticalNavbarBox2 {
+    display: flex;
+    width: 13rem;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.verticalNavbarBox2Icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    opacity: 0.8;
+}
+
+.verticalNavbarBox2Text {
+    color: var(--Black-100, #FFF);
+
+    /* Body 2/Medium */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* 142.857% */
+    opacity: 0.8;
+}
+
+.payments {
+    background-color: #FFFFFF1A;
+}
+
+.verticalNavbarBoxFooter {
+    display: flex;
+    width: 12rem;
+    padding: 0.375rem 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: #353C53;
+}
+
+.verticalNavbarBoxFooter1 {
+    display: flex;
+    padding: 0.375rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.verticalNavbarBoxFooterParent {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.verticalNavbarBoxFooterIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.verticalNavbarBoxFooter2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.125rem;
+}
+
+.verticalNavbarBoxFooter2Text1 {
+    color: var(--Black-100, #FFF);
+
+    /* Sub Body/Regular */
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    /* 123.077% */
+    opacity: 0.8;
+}
+
+.verticalNavbarBoxFooter2Text2 {
+    color: var(--Black-100, #FFF);
+
+    /* Sub Title/Medium */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* 150% */
+}

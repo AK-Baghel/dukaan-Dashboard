@@ -1,0 +1,44 @@
+.dashboardSection3Container {
+    display: flex;
+    width: 70.5rem;
+    padding: 0.625rem 0.75rem;
+    align-items: center;
+    gap: 2.5rem;
+    border-radius: 0.25rem;
+    background: var(--Black-95, #F2F2F2);
+}
+
+.dashboardSection3Box1 {
+    width: 15.37rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.25rem;
+    /* background-color: orange; */
+}
+
+.dashboardSection3Box1Alter {
+    flex-direction: row-reverse;
+}
+
+.dashboardSection3Box1Text {
+    color: var(--Black-30, #4D4D4D);
+
+    /* Body 2/Medium */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.dashboardSection3Box1Icon {
+    width: var(--Spacing-spacing-04, 0.5rem);
+    height: var(--Spacing-spacing-04, 0.5rem);
+}
+
+.dashboardSection3Box1IconDot {
+    width: 0.875rem;
+    height: 0.875rem;
+}
